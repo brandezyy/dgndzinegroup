@@ -121,7 +121,7 @@
   let myImage = document.getElementById('aboutImage');
   // About Sketch.jpg
   if(myImage) {
-myImage.onclick = function() {
+myImage.onmouseover = function() {
     let mySrc = myImage.getAttribute('src');
     console.log(mySrc);
     if(mySrc === "/assets/img/aboutcolored.jpg") {
@@ -131,17 +131,7 @@ myImage.onclick = function() {
     }
 }
   }
-function toggle() {
-  let mySrc = myImage.getAttribute('src');
-  console.log(mySrc);
-  if(mySrc === "/assets/img/aboutcolored.jpg") {
-    myImage.setAttribute('src',"/assets/img/aboutsketch.jpg");
-  } else {
-    myImage.setAttribute('src',"/assets/img/aboutcolored.jpg");
-  }
-}
 
-setInterval(toggle,10000);
 
  /**
    * Hero carousel indicators
