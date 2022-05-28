@@ -12,6 +12,20 @@ body {
   background: #0c0b09;
   color: #fff;
 }
+  .extraH{
+                  color: #cda45e;
+                  border: 1px solid lightyellow;
+                  border-radius: 25px;
+                  padding: 1rem;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+                }
+.extraH:hover{
+color: black;
+background-color: #cda45e;
+transition: 1s;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 a {
   color: #cda45e;
